@@ -74,10 +74,10 @@ C++ allows two primary ways to pass parameters to a function:
    * Use a two-pointer method and a `swap_chars` helper with reference parameters to reverse characters in place.
    * Output the reversed string.
 
-**Key learning**
+**Key learning**:
 This experiment helped me clearly distinguish between value and reference parameter passing. I learned to work confidently with pointers and memory addresses, which strengthened my understanding of how data is stored and accessed. I can now choose parameter-passing methods that balance efficiency and safety, and I can apply call by reference in real-world tasks such as manipulating data structures or handling large objects without unnecessary copying.
 
-**Applications**
+**Applications**:
 Call by reference is valuable in many practical scenarios. It allows direct editing of arrays, linked lists, and other complex structures without creating extra copies. It also makes it easier to return multiple values from a single function. In system-level programming, call by reference is essential for interacting with hardware. Within object-oriented code, it improves efficiency by passing large objects without copying them. Finally, it supports in-place algorithm implementation, which leads to better overall performance.
 
 
