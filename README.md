@@ -75,16 +75,13 @@ C++ allows two primary ways to pass parameters to a function:
    * Output the reversed string.
 
 **Key learning**
-
-* Distinguish between value and reference parameter passing.
-* Work confidently with pointers and memory addresses.
-* Choose parameter passing methods that balance efficiency and safety.
-* Apply call by reference in real-world tasks like data structure manipulation and large-object handling.
+This experiment helped me clearly distinguish between value and reference parameter passing. I learned to work confidently with pointers and memory addresses, which strengthened my understanding of how data is stored and accessed. I can now choose parameter-passing methods that balance efficiency and safety, and I can apply call by reference in real-world tasks such as manipulating data structures or handling large objects without unnecessary copying.
 
 **Applications**
+Call by reference is valuable in many practical scenarios. It allows direct editing of arrays, linked lists, and other complex structures without creating extra copies. It also makes it easier to return multiple values from a single function. In system-level programming, call by reference is essential for interacting with hardware. Within object-oriented code, it improves efficiency by passing large objects without copying them. Finally, it supports in-place algorithm implementation, which leads to better overall performance.
 
-* Editing arrays, linked lists, and complex structures directly.
-* Returning multiple values from a function.
-* System-level programming that interacts with hardware.
-* Efficient object-oriented code where large objects are passed without copying.
-* In-place algorithm implementation for better performance.
+
+### Conclusion
+
+Through this experiment, I clearly understood the difference between **call by value** and **call by reference** in C++. I observed that call by value only works on copies of variables, so the original data stays unchanged, while call by reference lets a function modify the actual variables using pointers or references. By writing programs for swapping values, calculating an employee bonus, and reversing a string, I learned when it is better to protect data and when it is more efficient to update it directly. This activity improved my grasp of pointers, memory handling, and how to design functions more effectively.
+
