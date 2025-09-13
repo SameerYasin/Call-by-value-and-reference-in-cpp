@@ -1,14 +1,13 @@
 # Call-by-value-and-reference-in-cpp
+## EXPERIMENT – 10A – CALL BY VALUE AND CALL BY REFERENCE IN C++**
 
-**EXPERIMENT – 10A – CALL BY VALUE AND CALL BY REFERENCE IN C++**
-
-**Aim**
+## Aim
 To explore and implement *call by value* and *call by reference* in C++, recognizing their differences and practical uses.
 
-**Required Tools**
+## Required Tools 
 VS Code or any online C++ compiler.
 
-**Theory**
+## Theory
 C++ allows two primary ways to pass parameters to a function:
 
 * **Call by Value**: A copy of the argument is sent to the function. Any modification inside the function affects only this copy, leaving the original variable unchanged.
@@ -29,19 +28,13 @@ C++ allows two primary ways to pass parameters to a function:
   void func(int& x) { x = 10; }
   ```
 
-**Memory Concepts**
+**Memory Concepts**:
+Stack memory stores local variables and function parameters during program execution, providing temporary space for data while a function is running. The address operator (`&`) is used to obtain the memory location of a variable, while the dereference operator (`*`) allows access to the value stored at that memory address. Pointers are special variables designed to hold these memory addresses, enabling direct interaction with and manipulation of data in memory.
 
-* *Stack Memory*: Stores local variables and parameters.
-* *Address Operator (&)*: Retrieves a variable’s memory location.
-* *Dereference Operator (*)\*: Accesses the value at a memory address.
-* *Pointers*: Variables that hold memory addresses.
 
-**Importance**
+**Importance**:
+Call by reference offers several advantages. It reduces unnecessary copying of large amounts of data and lets me decide when a function should modify the original variables. This approach improves performance when handling large objects and helps maintain control over data integrity by allowing updates only when explicitly intended.
 
-* Reduces unnecessary copying of large data.
-* Lets you decide when a function should alter original data.
-* Improves performance when working with large objects.
-* Maintains control over data integrity.
 
 ### Programs
 
